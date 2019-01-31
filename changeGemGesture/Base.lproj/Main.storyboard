@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Change Gem View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="changeGemViewController" customModule="changeGemGesture" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VK9-0x-zui">
+                                <rect key="frame" x="0.0" y="444.5" width="375" height="222.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gloves" translatesAutoresizingMaskIntoConstraints="NO" id="1dX-an-iNL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3eL-d0-fvb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddt-Nt-KxV">
+                                        <rect key="frame" x="291" y="289" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0af-xw-Svg">
+                                        <rect key="frame" x="243" y="166" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kmp-cP-5e3">
+                                        <rect key="frame" x="44" y="202" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EPQ-u0-Qu0">
+                                        <rect key="frame" x="112" y="154" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jpf-2g-AZ6">
+                                        <rect key="frame" x="180" y="148" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nu1-CL-C0Z">
+                                        <rect key="frame" x="155" y="270" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="N1d-e8-1nv">
+                                <rect key="frame" x="101.5" y="594.5" width="172" height="34"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42i-8w-aDf">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="34"/>
+                                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Twinkle">
+                                            <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="twinkeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2oz-Sl-cIn"/>
+                                        </connections>
+                                    </button>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0p-AM-Dfz">
+                                        <rect key="frame" x="71" y="0.0" width="51" height="34"/>
+                                        <connections>
+                                            <action selector="gloveSwith:" destination="BYZ-38-t0r" eventType="valueChanged" id="sv8-Iy-Tsz"/>
+                                        </connections>
+                                    </switch>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEX-yo-1pC">
+                                        <rect key="frame" x="130" y="0.0" width="42" height="34"/>
+                                        <color key="backgroundColor" red="0.83921568629999999" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="Snap">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="snapButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbn-1X-P0A"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3eL-d0-fvb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="64p-x1-tlR"/>
+                            <constraint firstItem="N1d-e8-1nv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BCk-Of-F5B"/>
+                            <constraint firstItem="VK9-0x-zui" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="D0H-gb-PBD"/>
+                            <constraint firstItem="VK9-0x-zui" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GGV-Wb-gmc"/>
+                            <constraint firstItem="1dX-an-iNL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Gkc-II-X7v"/>
+                            <constraint firstItem="VK9-0x-zui" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="KVJ-L9-gSb"/>
+                            <constraint firstItem="1dX-an-iNL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QJs-7k-mXg"/>
+                            <constraint firstItem="VK9-0x-zui" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="bottom" multiplier="2/3" id="VLx-dK-Kun"/>
+                            <constraint firstItem="N1d-e8-1nv" firstAttribute="top" secondItem="VK9-0x-zui" secondAttribute="top" constant="150" id="VuY-qd-Gsz"/>
+                            <constraint firstItem="3eL-d0-fvb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WT3-UF-sDr"/>
+                            <constraint firstItem="3eL-d0-fvb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YYM-Dy-N7g"/>
+                            <constraint firstItem="1dX-an-iNL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="nRc-Iw-Z9m"/>
+                            <constraint firstAttribute="bottom" secondItem="3eL-d0-fvb" secondAttribute="bottom" id="pSN-nq-d7V"/>
+                            <constraint firstItem="1dX-an-iNL" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="pv2-T5-hwb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="blueImageView" destination="Jpf-2g-AZ6" id="Muc-R0-g7w"/>
+                        <outlet property="crystalImageView" destination="nu1-CL-C0Z" id="99E-cW-eNk"/>
+                        <outlet property="gloveImageView" destination="1dX-an-iNL" id="bwZ-mx-b61"/>
+                        <outlet property="greenImageView" destination="ddt-Nt-KxV" id="grl-OG-Wyn"/>
+                        <outlet property="orangeImageView" destination="Kmp-cP-5e3" id="HzM-Cs-KmH"/>
+                        <outlet property="purpleImageView" destination="0af-xw-Svg" id="MYm-Fa-YeZ"/>
+                        <outlet property="redImageView" destination="EPQ-u0-Qu0" id="nEp-Ix-ks7"/>
+                        <outlet property="twinkleButton" destination="42i-8w-aDf" id="rQQ-7c-SyT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1399.2" y="-90.404797601199405"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gloves" width="300" height="544"/>
+    </resources>
 </document>

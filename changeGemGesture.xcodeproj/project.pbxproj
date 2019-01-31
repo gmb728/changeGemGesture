@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7F095521FC517600039F61 /* changeGemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7F095421FC517600039F61 /* changeGemViewController.swift */; };
+		DD7F09572201745E00039F61 /* DoReMeSo.mov in Resources */ = {isa = PBXBuildFile; fileRef = DD7F09562201745D00039F61 /* DoReMeSo.mov */; };
 		DD83223321FC4F3A00511152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83223221FC4F3A00511152 /* AppDelegate.swift */; };
-		DD83223521FC4F3A00511152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD83223421FC4F3A00511152 /* ViewController.swift */; };
 		DD83223821FC4F3A00511152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD83223621FC4F3A00511152 /* Main.storyboard */; };
 		DD83223A21FC4F3B00511152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD83223921FC4F3B00511152 /* Assets.xcassets */; };
 		DD83223D21FC4F3B00511152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD83223B21FC4F3B00511152 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD7F095421FC517600039F61 /* changeGemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeGemViewController.swift; sourceTree = "<group>"; };
+		DD7F09562201745D00039F61 /* DoReMeSo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = DoReMeSo.mov; sourceTree = "<group>"; };
 		DD83222F21FC4F3A00511152 /* changeGemGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeGemGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD83223221FC4F3A00511152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD83223421FC4F3A00511152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD83223721FC4F3A00511152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD83223921FC4F3B00511152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD83223C21FC4F3B00511152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				DD83223221FC4F3A00511152 /* AppDelegate.swift */,
-				DD83223421FC4F3A00511152 /* ViewController.swift */,
 				DD83223621FC4F3A00511152 /* Main.storyboard */,
+				DD7F095421FC517600039F61 /* changeGemViewController.swift */,
+				DD7F09562201745D00039F61 /* DoReMeSo.mov */,
 				DD83223921FC4F3B00511152 /* Assets.xcassets */,
 				DD83223B21FC4F3B00511152 /* LaunchScreen.storyboard */,
 				DD83223E21FC4F3B00511152 /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				DD83223D21FC4F3B00511152 /* LaunchScreen.storyboard in Resources */,
 				DD83223A21FC4F3B00511152 /* Assets.xcassets in Resources */,
+				DD7F09572201745E00039F61 /* DoReMeSo.mov in Resources */,
 				DD83223821FC4F3A00511152 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD83223521FC4F3A00511152 /* ViewController.swift in Sources */,
+				DD7F095521FC517600039F61 /* changeGemViewController.swift in Sources */,
 				DD83223321FC4F3A00511152 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
